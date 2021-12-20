@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(228, 18, 18);
+}
+
+h1 {
+    color: black;
+    background-color: rgb(203, 226, 247);
+}
+
+h2 {
+    color: black
+}
+
+#drawing {
+    float: right;
+}
+
+canvas {
+    margin-top: 150px;
+    border-radius: 50px;
+    animation-name: fade;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fade {
+    from {
+        box-shadow: 1px 1px 38px rgb(221, 34, 34);
+    }
+
+    to {
+        box-shadow: 1px 1px 38px rgb(0, 0, 0);
+    }
+
+}
+
+img {
+    width: 60px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+#Score {
+    float: left;
+}
+
+#Timer {
+    float: right;
+}
